@@ -4,7 +4,7 @@ import { DevOpsCdkPipelineStack } from '../lib/dev_ops_cdk_pipeline-stack';
 
 const app = new App();
 
-new DevOpsCdkPipelineStack(app, 'CdkpipelinesDemoPipelineStack', {
+new DevOpsCdkPipelineStack(app, 'DevOpsCdkPipelineStack', {
     env: { account: 'charlie_apprentice', region: 'eu-west-2' },
 });
 
